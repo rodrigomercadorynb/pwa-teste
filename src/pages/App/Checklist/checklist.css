@@ -1,0 +1,104 @@
+.topChecklist {
+  display: flex;
+}
+
+.back-btn {
+  width: 40px !important;
+  height: 45px;
+  /* margin-top: 30px !important; */
+}
+
+.reservaTitulo {
+  width: 80%;
+  /* text-align: center; */
+  margin-left: 5%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: #ccc 1px solid;
+}
+
+/* Limpeza */
+.items-cards {
+  margin-top: 40px;
+}
+.listaReservas {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+}
+.limpeza-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Modal */
+.header-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.titulo-modal {
+  margin-bottom: 20px;
+}
+
+.descricao-modal {
+  width: 100%;
+}
+
+.space-titulo {
+  margin-bottom: 10px;
+}
+.space-blocos {
+  margin-bottom: 20px;
+}
+
+.inline-ponto-p {
+  display: flex;
+  align-items: center;
+}
+
+.bullet ul {
+  list-style: none !important;
+}
+
+.bullet li::before {
+  content: '\25AA';
+  color: #fbc02d;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: -2.5em;
+  list-style-type: square !important;
+  margin-bottom: 5px;
+}
+
+.input-obs {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.limpeza-btn-info {
+  margin-top: 20px;
+  margin-bottom: -25px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 800px) {
+  /* Limpeza */
+  .items-cards {
+    margin-top: 40px;
+    text-align: center;
+  }
+}

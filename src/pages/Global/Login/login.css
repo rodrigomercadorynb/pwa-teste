@@ -1,0 +1,99 @@
+.home {
+  display: flex;
+  height: 100%;
+}
+.home-left {
+  width: 50%;
+  /* background-color: lightsalmon; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.home-right {
+  width: 50%;
+  min-height: 100vh;
+  background-image: url('../../../images/home-001.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-size: cover;
+  z-index: 10;
+}
+
+.logo {
+  width: 45%;
+  padding: 50px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.bottom {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  justify-content: flex-end;
+  flex-direction: column;
+  text-align: start;
+  font-size: 10px;
+  margin: auto;
+}
+
+.btn {
+  height: 50px;
+  width: 200px;
+  margin-top: 30px !important;
+  font-family: poppins !important;
+  margin-bottom: 30px !important;
+  color: white !important;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.emailInput {
+  margin-bottom: 20px !important;
+}
+main {
+  width: 80%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+  margin: auto;
+}
+.login-form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+input {
+  font-family: poppins !important;
+}
+
+@media (max-width: 800px) {
+  .home-right {
+    width: 0;
+    display: none;
+  }
+  .home-left {
+    width: 100%;
+
+    /* display: flex; */
+  }
+  .bottom {
+    margin-top: 30px;
+    height: 100% !important;
+  }
+}

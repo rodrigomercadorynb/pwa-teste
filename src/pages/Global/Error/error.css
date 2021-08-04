@@ -1,0 +1,51 @@
+a {
+  text-decoration: none;
+}
+
+.error-left {
+  width: 50%;
+  /* background-color: lightsalmon; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.error-right {
+  width: 50%;
+  min-height: 100vh;
+  background-image: url('../../../images/error-003.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-size: cover;
+  z-index: 10;
+}
+
+.center404 {
+  width: 50%;
+  min-height: 100vh;
+  background-image: url('../../../images/error-404.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-size: contain;
+  z-index: 11;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .error-right {
+    width: 0;
+    display: none;
+  }
+  .error-left {
+    width: 100%;
+
+    /* display: flex; */
+  }
+  .bottom {
+    margin-top: 30px;
+    height: 100% !important;
+  }
+}
